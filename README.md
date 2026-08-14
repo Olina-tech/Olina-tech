@@ -2,9 +2,9 @@
 
 # 👋 Hi, I'm Rajiv Kapur
 
-### Software Architect | System Designer | Tech Leader
+### Software Architect | System Designer | Distributed Systems
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=600&lines=Building+Scalable+Systems;Designing+Robust+Architectures;Passionate+about+Clean+Code+%26+Cloud;Always+Learning+%26+Innovating" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=600&lines=Building+Scalable+Systems;Designing+Robust+Architectures;Cloud-Native+%26+AI+Infrastructure;Always+Learning+%26+Innovating" alt="Typing SVG" />
 
 </div>
 
@@ -12,15 +12,15 @@
 
 ### 🚀 About Me
 
-I'm a **Software Architect** based in **India** 🇮🇳, passionate about designing scalable, resilient, and high-performance systems.  
-I love turning complex business problems into elegant technical solutions using modern architecture patterns, cloud-native technologies, and best engineering practices.
+I'm a **Software Architect** passionate about designing scalable, resilient, and high-performance systems.  
+I turn complex business problems into clean technical solutions using modern architecture patterns, cloud-native technologies, and solid engineering practices.
 
-- 🔭 Currently focused on **System Design**, **Microservices**, **Cloud Architecture** & **Distributed Systems**
-- 🌱 Continuously learning **Cloud Native**, **DevOps**, **AI-assisted development** and emerging tech
+- 🔭 Focused on **System Design**, **Microservices**, **Cloud Architecture** & **Distributed Systems**
+- 🌱 Exploring **AI infrastructure**, **observability**, **rate limiting** and cost-aware systems
 - 💡 Strong believer in **Clean Architecture**, **Domain-Driven Design (DDD)** and **SOLID principles**
-- 🤝 Open to collaborations, architecture reviews, and interesting projects
-- 📫 Reach me at: **rajivkapur@myyahoo.com**
-- ⚡ Fun fact: I enjoy designing systems as much as I enjoy solving complex puzzles!
+- 🤝 Open to collaborations, architecture reviews, and interesting challenges
+- 📫 Reach me: **rajivkapur@myyahoo.com**
+- ⚡ Fun fact: I enjoy designing systems as much as solving complex puzzles
 
 ---
 
@@ -40,21 +40,30 @@ I love turning complex business problems into elegant technical solutions using 
 ![Go](https://img.shields.io/badge/Go-Intermediate-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-Expert-orange?style=for-the-badge&logo=postgresql&logoColor=white)
 
-#### Cloud & DevOps
+#### Cloud & Infrastructure
 ![AWS](https://img.shields.io/badge/AWS-Advanced-orange?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-Intermediate-blue?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Expert-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Advanced-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-Intermediate-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-Advanced-green?style=for-the-badge)
 
 #### Frameworks & Tools
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-Expert-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-Advanced-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-Intermediate-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-Advanced-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Expert-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-Advanced-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+---
+
+### 📁 Featured Projects
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| **[AI Queue](https://github.com/Olina-tech/ai-queue-backend)** | AI-aware Task Queue + Rate Limiting + Cost Control | Cloudflare Workers, Upstash Redis, Neon |
+| **[AI Trace](https://github.com/Olina-tech/ai-trace-backend)** | AI Agent Observability & Decision Trace | Cloudflare Workers, Redis, Postgres |
+| **[Realtime Chat](https://github.com/Olina-tech/realtime-chat-backend)** | Real-time messaging with Cloudflare RealtimeKit | Workers, RealtimeKit, React |
+| **[URL Shortener](https://github.com/Olina-tech/url-shortener-backend)** | Full-stack URL shortener with analytics | TypeScript, Prisma, Redis |
 
 ---
 
@@ -69,23 +78,23 @@ I love turning complex business problems into elegant technical solutions using 
 
 ---
 
-### 🎯 What I'm Looking For
+### 🎯 Open To
 
-- Exciting architecture challenges
-- Opportunities to design large-scale distributed systems
-- Collaborations on open-source or innovative projects
-- Mentoring & knowledge sharing in system design
+- Architecture roles at scale (distributed systems, platform, infrastructure)
+- Designing high-throughput, cost-aware, and observable systems
+- Collaboration on open-source and challenging technical problems
+- Mentoring and knowledge sharing around system design
 
 ---
 
 <div align="center">
 
-### 📫 Let's Connect!
+### 📫 Let's Connect
 
 [![Email](https://img.shields.io/badge/Email-rajivkapur%40myyahoo.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajivkapur@myyahoo.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Olina--tech-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Olina-tech)
 
-**Available for hire** ✅
+**Available for opportunities worldwide** ✅
 
 ⭐️ From [Olina-tech](https://github.com/Olina-tech)
 
