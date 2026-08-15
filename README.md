@@ -4,7 +4,7 @@
 
 ### Research intelligence infrastructure for scientific and R&D labs
 
-Olina is building an evidence-first AI platform that helps research teams move from a scientific question to traceable, reproducible and decision-ready work.
+**Olina is a product and deep-technology initiative of Sirmint Technologies.** We are building an evidence-first AI platform that helps research teams move from a scientific question to traceable, reproducible and decision-ready work.
 
 [Website](https://olina.tech) · [Research App](https://aap.olina.tech) · [Workspace](https://workspace.olina.tech) · [Control Center](https://control.olina.tech)
 
@@ -29,6 +29,12 @@ Scientific and R&D teams work across papers, experimental notes, datasets, conve
 - control over models, compute, access and cost
 
 Olina is being built for that gap.
+
+## Company
+
+**Sirmint Technologies** is the parent company behind Olina. Sirmint Technologies develops and operates the Olina platform, products, infrastructure and research-model program.
+
+Olina is the company's research-intelligence product family for scientific and R&D labs.
 
 ## Our vision
 
@@ -174,6 +180,8 @@ Our product and model development will be evaluated against research outcomes—
 
 ## Collaboration and investment
 
+Olina's company, product development and investment relationships are led under **Sirmint Technologies**.
+
 We want to work with research labs, scientific teams, design partners, infrastructure partners and investors who believe AI for science must be verifiable, controllable and built around real research workflows.
 
 For partnerships, pilots and investment conversations: **hello@olina.tech**
@@ -196,6 +204,6 @@ Please do not disclose suspected vulnerabilities through a public GitHub issue. 
 
 ### Research deeply. Verify clearly. Build knowledge that lasts.
 
-© 2026 Olina Technologies
+© 2026 Sirmint Technologies · Olina is a Sirmint Technologies product
 
 </div>
