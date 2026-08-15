@@ -34,7 +34,7 @@ Architecture → Distributed Systems → Cloud Platforms → AI Infrastructure �
 - 🏗️ Distributed systems, event-driven design, resilient APIs, clean architecture, and practical DDD
 - ☁️ Multi-cloud system architecture across AWS, Google Cloud, Microsoft Azure, and Cloudflare
 - ⚙️ Serverless and edge-native backends with Cloudflare Workers
-- 🗄️ PostgreSQL / Neon, Redis, SQL architecture, audit trails, and operational data models
+- 🗄️ PostgreSQL / Neon / Supabase, MongoDB, Redis, SQL architecture, audit trails, and operational data models
 - 🔐 Secure API design, JWT-based auth, access control, auditability, and reliability patterns
 - 📊 Production observability, tracing, telemetry, rate limits, cost controls, and failure analysis
 - 🚀 Building real products under the **Olina** brand
@@ -81,6 +81,8 @@ I approach cloud architecture from the system-design level: compute, networking,
 <img src="https://img.shields.io/badge/Observability-111827?style=for-the-badge" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=postgresql&logoColor=black" />
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
 </p>
 
@@ -162,7 +164,7 @@ I design around:
 **Cloud:** AWS · Google Cloud · Microsoft Azure · Cloudflare  
 **Platform:** Kubernetes · Docker · Terraform · GitHub Actions · Serverless · Edge Computing  
 **Backend:** Java · TypeScript · Node.js · Python · Go · REST APIs  
-**Data:** PostgreSQL · Neon · Redis · SQL · distributed data patterns  
+**Data:** PostgreSQL · Neon · Supabase · MongoDB · Redis · SQL · distributed data patterns  
 **Frontend:** React · modern web architecture  
 **Architecture:** Distributed Systems · Microservices · Event-Driven Systems · Clean Architecture · DDD  
 **AI / Platform:** Agent Systems · AI Infrastructure · Queues · Tracing · Observability · Cost Controls  
