@@ -1,89 +1,176 @@
 <div align="center">
 
-# 👋 Hi, I'm Rajiv Kapur
+# Rajiv Kapur
 
-### Software Architect · Distributed Systems · Product Builder
+### Software Architect · Distributed Systems · AI Platforms · Multi-Cloud Architecture
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=700&lines=Building+Olina+Control;Experiment+control+for+industry+labs;Cloudflare+Workers+%2B+Neon;Scalable+systems+%26+real+products" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2800&pause=900&color=3B82F6&center=true&vCenter=true&width=900&lines=Architecting+Intelligent+%26+Resilient+Systems;Distributed+Systems+%7C+AI+Platforms+%7C+Cloud+Architecture;AWS+%7C+Google+Cloud+%7C+Azure+%7C+Cloudflare;Building+Production-Grade+Products+under+Olina" alt="Typing SVG" />
 
-**[olina.tech](https://olina.tech)** · Building tools for modern R&D labs
+**[olina.tech](https://olina.tech)** · Engineering intelligent systems for modern R&D
+
+[![GitHub](https://img.shields.io/badge/GitHub-Olina--tech-181717?style=flat-square&logo=github)](https://github.com/Olina-tech)
+[![Website](https://img.shields.io/badge/Website-olina.tech-2563EB?style=flat-square&logo=googlechrome&logoColor=white)](https://olina.tech)
+[![Email](https://img.shields.io/badge/Email-rajivkapur%40myyahoo.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rajivkapur@myyahoo.com)
 
 </div>
 
 ---
 
-### 🚀 About Me
+## ⚡ Architecting the next generation of software systems
 
-I'm a **Software Architect** focused on turning hard operational problems into clean, production-grade systems.
+I am a **Software Architect** focused on designing systems that are scalable, observable, secure, cost-aware, and built for real-world operations.
 
-I work across **system design**, **serverless backends**, **observability**, and **B2B product architecture** — from portfolio-grade distributed systems to real products under the **Olina** brand.
+My work spans **distributed systems, AI infrastructure, cloud-native platforms, serverless architecture, API design, data systems, observability, product engineering, and multi-cloud architecture**.
 
-- 🏗️ Designing scalable APIs on **Cloudflare Workers + Neon Postgres**
-- 🧪 Building **Olina Control** — experiment control, safety rules, and audit for industry labs
-- 📚 Planning **Olina Research** — evidence workspace (literature · lab · market · conclusions)
-- 🛒 **Olina Shop** — digital products for labs and R&D teams
-- 💡 Clean Architecture, practical DDD, and cost-aware infrastructure
-- 📫 **rajivkapur@myyahoo.com**
-- 🌍 Open to roles and collaborations **worldwide**
+I enjoy turning difficult engineering problems into clean system boundaries, reliable data flows, measurable operations, and production-grade products.
 
----
+```text
+Architecture → Distributed Systems → Cloud Platforms → AI Infrastructure → Products
+```
 
-### 🏢 Olina — Products
+### Current focus
 
-| Product | What it is | Status |
-|---------|------------|--------|
-| **[Olina Control](https://github.com/Olina-tech/olina-control-api)** | Experiment control & audit for industry R&D labs (approve, safety rules, step logs, full trail) | In build |
-| **Olina Research** | Research workspace: literature + lab evidence + market notes → conclusion | Planned (code ready, not launched) |
-| **[Olina Shop](https://github.com/Olina-tech/olina-control-shop)** | Digital products storefront (`shop.olina.tech`) | Scaffold ready |
-| **Marketing** | Brand site (`olina.tech`) | Scaffold ready |
-
-**Stack for Olina:** Cloudflare Workers · Neon · React · JWT auth · audit-first data models
+- 🧠 AI platforms, intelligent workflows, agent infrastructure, queues, traces, and observability
+- 🏗️ Distributed systems, event-driven design, resilient APIs, clean architecture, and practical DDD
+- ☁️ Multi-cloud system architecture across AWS, Google Cloud, Microsoft Azure, and Cloudflare
+- ⚙️ Serverless and edge-native backends with Cloudflare Workers
+- 🗄️ PostgreSQL / Neon, Redis, SQL architecture, audit trails, and operational data models
+- 🔐 Secure API design, JWT-based auth, access control, auditability, and reliability patterns
+- 📊 Production observability, tracing, telemetry, rate limits, cost controls, and failure analysis
+- 🚀 Building real products under the **Olina** brand
 
 ---
 
-### 🛠️ Tech Stack
+## 🧠 Architecture & Engineering
 
-#### Architecture
-![System Design](https://img.shields.io/badge/System_Design-Expert-blue?style=for-the-badge)
-![Microservices](https://img.shields.io/badge/Microservices-Expert-blue?style=for-the-badge)
-![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-Advanced-blue?style=for-the-badge)
-![Event Driven](https://img.shields.io/badge/Event--Driven-Architecture-blue?style=for-the-badge)
+<p align="center">
+<img src="https://img.shields.io/badge/System_Design-Architecture-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Distributed_Systems-Architecture-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Microservices-Architecture-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Event--Driven-Architecture-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Clean_Architecture-Architecture-0F172A?style=for-the-badge" />
+<img src="https://img.shields.io/badge/DDD-Domain_Design-0F172A?style=for-the-badge" />
+</p>
 
-#### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-Advanced-blue?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-Expert-orange?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-Advanced-blue?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Expert-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Go](https://img.shields.io/badge/Go-Intermediate-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-
-#### Cloud & Data
-![Cloudflare](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Neon](https://img.shields.io/badge/Neon_Postgres-00E699?style=for-the-badge&logo=postgresql&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-Advanced-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Advanced-orange?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Expert-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-#### Frontend & APIs
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-Advanced-green?style=for-the-badge)
+**Core architecture themes:** scalability · resilience · observability · security · auditability · performance · cost-awareness · maintainability
 
 ---
 
-### 📁 Portfolio / Systems Projects
+## ☁️ Multi-Cloud & Platform Engineering
 
-Public-facing architecture work (separate from Olina product repos):
+<p align="center">
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+<img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+</p>
 
-| Project | Description | Stack |
-|---------|-------------|-------|
-| **[AI Queue](https://github.com/Olina-tech/ai-queue-backend)** | AI-aware job queue, rate limiting, cost controls | Workers · Upstash · Neon |
-| **[AI Trace](https://github.com/Olina-tech/ai-trace-backend)** | Agent run observability & decision timeline | Workers · Redis · Postgres |
-| **[Realtime Chat](https://github.com/Olina-tech/realtime-chat-backend)** | Real-time messaging with RealtimeKit | Workers · RealtimeKit · React |
-| **[URL Shortener](https://github.com/Olina-tech/url-shortener-backend)** | Full-stack shortener with analytics patterns | TypeScript · API · Redis |
+I approach cloud architecture from the system-design level: compute, networking, APIs, identity, data, observability, deployment, resilience, cost, and operational simplicity.
 
 ---
 
-### 📊 GitHub Stats
+## 🤖 AI, Data & Intelligent Systems
+
+<p align="center">
+<img src="https://img.shields.io/badge/AI_Platforms-111827?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Agent_Systems-111827?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Observability-111827?style=for-the-badge" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Neon-00E699?style=for-the-badge&logo=postgresql&logoColor=black" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+</p>
+
+**Areas I care about:** AI-aware queues · agent tracing · model/API cost controls · rate limiting · execution timelines · audit trails · retrieval/data flows · operational intelligence
+
+---
+
+## 💻 Languages & Application Stack
+
+<p align="center">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" />
+</p>
+
+---
+
+## 🚀 Olina — Product Architecture
+
+| Product | Architecture / Purpose | Status |
+|---|---|---|
+| **[Olina Control](https://github.com/Olina-tech/olina-control-api)** | Experiment control, approvals, safety rules, step logs, audit-first workflows for R&D labs | In build |
+| **Olina Research** | Evidence workspace connecting literature, lab evidence, market notes, and conclusions | Planned |
+| **[Olina Shop](https://github.com/Olina-tech/olina-control-shop)** | Digital products and tooling for labs and R&D teams | Scaffold ready |
+| **Olina Platform** | Shared product, API, data, auth, and operational architecture across the Olina ecosystem | Evolving |
+
+### Olina architecture direction
+
+```text
+Web / App / Product Interfaces
+            ↓
+Cloudflare Edge + APIs
+            ↓
+Auth · Rules · Workflows · AI Services
+            ↓
+Neon PostgreSQL · Redis · Audit Data
+            ↓
+Observability · Security · Cost Controls
+```
+
+---
+
+## 🧪 Systems Portfolio
+
+| Project | Engineering focus | Stack |
+|---|---|---|
+| **[AI Queue](https://github.com/Olina-tech/ai-queue-backend)** | AI-aware job queue, rate limiting, workload control, cost-aware execution | Workers · Redis / Upstash · Neon |
+| **[AI Trace](https://github.com/Olina-tech/ai-trace-backend)** | Agent execution observability, traces, decision timelines | Workers · Redis · PostgreSQL |
+| **[Realtime Chat](https://github.com/Olina-tech/realtime-chat-backend)** | Real-time communication architecture | Workers · RealtimeKit · React |
+| **[URL Shortener](https://github.com/Olina-tech/url-shortener-backend)** | API architecture, redirects, analytics, caching patterns | TypeScript · APIs · Redis |
+
+---
+
+## 🔬 How I think about systems
+
+> **The best architecture is not the one with the most technology. It is the one that makes complexity understandable, failures survivable, operations observable, and growth economical.**
+
+I design around:
+
+- clear service and domain boundaries
+- reliable contracts and API evolution
+- graceful failure and recovery
+- data ownership and consistency
+- observability from day one
+- security and auditability by design
+- automation without operational blindness
+- performance with cost awareness
+- architecture that can evolve with the product
+
+---
+
+## 🌐 Technology Radar
+
+**Cloud:** AWS · Google Cloud · Microsoft Azure · Cloudflare  
+**Platform:** Kubernetes · Docker · Terraform · GitHub Actions · Serverless · Edge Computing  
+**Backend:** Java · TypeScript · Node.js · Python · Go · REST APIs  
+**Data:** PostgreSQL · Neon · Redis · SQL · distributed data patterns  
+**Frontend:** React · modern web architecture  
+**Architecture:** Distributed Systems · Microservices · Event-Driven Systems · Clean Architecture · DDD  
+**AI / Platform:** Agent Systems · AI Infrastructure · Queues · Tracing · Observability · Cost Controls  
+**Security:** JWT · access control · audit trails · secure API patterns  
+
+---
+
+## 📊 GitHub Engineering Footprint
 
 <div align="center">
 
@@ -94,25 +181,27 @@ Public-facing architecture work (separate from Olina product repos):
 
 ---
 
-### 🎯 Open To
+## 🎯 Open to high-impact engineering
 
-- Software Architect / Staff+ roles (distributed systems, platform, cloud)
-- Building high-reliability APIs and audit-heavy B2B products
-- Collaborations on infrastructure, observability, and lab/R&D tooling
-- Mentoring around system design and serverless architectures
+- Software Architect / Principal / Staff+ architecture roles
+- Distributed systems and cloud platform architecture
+- AI infrastructure and intelligent platform engineering
+- High-reliability API and backend systems
+- Multi-cloud and serverless architecture
+- B2B products with strong audit, data, and operational requirements
+- Architecture consulting, technical leadership, and global collaboration
 
 ---
 
 <div align="center">
 
-### 📫 Connect
+### Build systems that scale. Design systems that survive. Create products that matter.
 
-[![Email](https://img.shields.io/badge/Email-rajivkapur%40myyahoo.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajivkapur@myyahoo.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Olina--tech-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Olina-tech)
-[![Web](https://img.shields.io/badge/olina.tech-3B82F6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://olina.tech)
+**Software Architecture · Distributed Systems · AI Platforms · Multi-Cloud · Product Engineering**
 
-**Available for opportunities worldwide** ✅
+[![Email](https://img.shields.io/badge/Let's_Talk-rajivkapur%40myyahoo.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rajivkapur@myyahoo.com)
+[![Website](https://img.shields.io/badge/Explore-olina.tech-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white)](https://olina.tech)
 
-⭐️ [Olina-tech](https://github.com/Olina-tech)
+**Available for opportunities and collaborations worldwide** 🌍
 
 </div>
