@@ -94,12 +94,14 @@ I approach cloud architecture from the system-design level: compute, networking,
 
 <p align="center">
 <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
 <img src="https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge" />
 </p>
 
@@ -163,9 +165,9 @@ I design around:
 
 **Cloud:** AWS · Google Cloud · Microsoft Azure · Cloudflare  
 **Platform:** Kubernetes · Docker · Terraform · GitHub Actions · Serverless · Edge Computing  
-**Backend:** Java · TypeScript · Node.js · Python · Go · REST APIs  
+**Backend:** Java · .NET · TypeScript · Node.js · Python · Go · REST APIs  
 **Data:** PostgreSQL · Neon · Supabase · MongoDB · Redis · SQL · distributed data patterns  
-**Frontend:** React · modern web architecture  
+**Frontend:** React · Next.js · modern web architecture  
 **Architecture:** Distributed Systems · Microservices · Event-Driven Systems · Clean Architecture · DDD  
 **AI / Platform:** Agent Systems · AI Infrastructure · Queues · Tracing · Observability · Cost Controls  
 **Security:** JWT · access control · audit trails · secure API patterns  
