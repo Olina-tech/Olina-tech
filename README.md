@@ -2,208 +2,247 @@
 
 # Olina
 
-### Research intelligence infrastructure for scientific and R&D labs
+### Backend infrastructure for AI-built apps
 
-**Olina is a product and deep-technology initiative of Sirmint Technologies.** We are building an evidence-first AI platform that helps research teams move from a scientific question to traceable, reproducible and decision-ready work.
+**Olina gives developers, AI agents, and software platforms a single control plane to create and manage production-ready backends.**
 
-[Website](https://olina.tech) · [Research App](https://aap.olina.tech) · [Workspace](https://workspace.olina.tech) · [Control Center](https://control.olina.tech)
+Database · Authentication · Storage · Realtime · APIs · Environments
+
+[Website](https://olina.tech) · [GitHub](https://github.com/Olina-tech)
 
 [![X](https://img.shields.io/badge/X-@olinatech-111111?style=flat-square&logo=x)](https://x.com/olinatech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Olina_Tech-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/company/olina-tech)
-[![Reddit](https://img.shields.io/badge/Reddit-olinatech-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/user/olinatech/)
 [![GitHub](https://img.shields.io/badge/GitHub-Olina--tech-181717?style=flat-square&logo=github)](https://github.com/Olina-tech)
 
 </div>
 
 ---
 
-## The problem
+## What is Olina?
 
-Scientific and R&D teams work across papers, experimental notes, datasets, conversations and disconnected software. General-purpose AI can produce fluent answers, but high-stakes research requires more:
+Modern AI coding tools can generate applications quickly, but every generated app still needs reliable backend infrastructure: data, identity, files, APIs, realtime events, isolation, usage controls, and lifecycle management.
 
-- evidence that can be inspected
-- citations that can be verified
-- uncertainty that remains visible
-- repeatable research workflows
-- secure collaboration around private lab knowledge
-- control over models, compute, access and cost
+Olina is building the backend control plane for that workflow.
 
-Olina is being built for that gap.
+Instead of wiring multiple infrastructure services together, a developer or AI agent should be able to request an environment and receive a ready-to-use backend through one API.
 
-## Company
+```text
+Developer / AI Agent
+        │
+        ▼
+      Olina
+        │
+        ├── Database
+        ├── Authentication
+        ├── Storage
+        ├── Realtime
+        ├── APIs
+        └── Isolated environments
+```
 
-**Sirmint Technologies** is the parent company behind Olina. Sirmint Technologies develops and operates the Olina platform, products, infrastructure and research-model program.
+> Build the app. Olina handles the backend.
 
-Olina is the company's research-intelligence product family for scientific and R&D labs.
+## Who Olina is for
 
-## Our vision
+Olina is designed for:
 
-Our long-term vision is to become the research intelligence layer for labs: a shared system in which scientists and AI can investigate literature, compare competing findings, organize institutional knowledge and produce defensible research outputs.
+- AI coding platforms and app builders
+- AI agents that need temporary or isolated backend environments
+- SaaS teams that want repeatable development and preview environments
+- developers who want one programmable backend lifecycle
+- platforms that need backend infrastructure provisioned for each customer, workspace, or generated application
 
-We are not building another generic chatbot. We are building infrastructure for evidence-intensive work.
+## Core product
 
-> From scientific question to defensible evidence.
+### Instant backend environments
 
-## What Olina is building
+Create a backend environment programmatically and receive the credentials and endpoints needed by an application or agent.
 
-### Olina Research
+```bash
+olina create my-app
+```
 
-A deep-research application for literature investigation, source synthesis, citation-aware answers and structured reports.
+Conceptually, an Olina environment can provide:
 
-### Olina Workspace
+```text
+✓ Relational database
+✓ Authentication
+✓ File storage
+✓ Realtime services
+✓ Application APIs
+✓ Environment credentials
+```
 
-A collaborative knowledge environment for lab pages, research notes, projects, files and real-time team communication.
+### Environment lifecycle
 
-### Olina Control
+Olina is designed around programmable lifecycle operations instead of manual infrastructure setup.
 
-An administration layer for organizations to manage members, permissions, compute, usage, billing, security and research operations.
+```text
+Create → Configure → Use → Clone → Reset → Destroy
+```
 
-### Olina API
+This is especially useful for AI agents, tests, previews, generated applications, and short-lived development work.
 
-A shared backend connecting identity, research jobs, files, AI inference, usage controls, payments and product integrations.
+### Agent-ready infrastructure
 
-## Product portfolio
+AI agents should be able to safely request infrastructure without receiving unrestricted control over an organization's production systems.
 
-| Product | Repository | Role |
-|---|---|---|
-| **Olina Web** | [olina-web](https://github.com/Olina-tech/olina-web) | Company website, pricing, trust and legal information |
-| **Olina Research** | [olina-app](https://github.com/Olina-tech/olina-app) | Evidence-first AI research experience |
-| **Olina Workspace** | [olina-workspace](https://github.com/Olina-tech/olina-workspace) | Collaborative lab knowledge and project workspace |
-| **Olina Control** | [olina-control](https://github.com/Olina-tech/olina-control) | Organization, compute, security and billing controls |
-| **Olina API** | [olina-api](https://github.com/Olina-tech/olina-api) | Platform backend and AI orchestration layer |
-| **Realtime Chat** | [realtime-chat-frontend](https://github.com/Olina-tech/realtime-chat-frontend) | Real-time research and team communication interface |
+Olina's direction includes:
 
-## The Olina research model strategy
-
-Olina's defensibility will come from a research-specific intelligence system—not only from access to a general-purpose model.
-
-### Stage 1 — Evidence infrastructure
-
-- retrieval across papers and authorized lab documents
-- source-preserving research pipelines
-- citation and claim traceability
-- structured reports and reusable research memory
-- model routing with compute and cost controls
-
-### Stage 2 — Proprietary specialist models
-
-- paper relevance and reranking
-- scientific claim extraction
-- citation consistency checking
-- conflicting-evidence detection
-- methodology and research-risk classification
-- experiment and protocol parsing
-
-### Stage 3 — Olina Science Model
-
-After building licensed, permissioned datasets and rigorous evaluations, we plan to fine-tune research-focused open models using parameter-efficient training. Continued pretraining or a larger proprietary model will be considered only when product usage, data quality and economics justify it.
-
-The moat is the complete system: permissioned data, research workflows, specialist models, evaluations, retrieval, verification, governance and user feedback.
+- isolated environments per task or agent
+- scoped credentials
+- expiration and automatic cleanup
+- quotas and usage controls
+- auditability
+- safe development and migration workflows
 
 ## Platform architecture
 
+The public Olina architecture is intentionally provider-agnostic. Applications integrate with Olina rather than directly depending on the infrastructure providers behind it.
+
 ```text
-Olina Web · Research · Workspace · Control
-                       │
-                   Olina API
-                       │
-       Research orchestration · AI gateway
-                       │
-  Supabase · D1 · R2 · Workers AI · Realtime
-                       │
-  Identity · Evidence · Files · Usage · Billing
+Users / Developers / AI Agents
+             │
+             ▼
+        Olina Edge
+             │
+             ▼
+        Olina API
+             │
+      ┌──────┴──────┐
+      │ Control Plane│
+      └──────┬──────┘
+             │
+   ┌─────────┼─────────┐
+   ▼         ▼         ▼
+Database   Identity   Storage
+   │         │         │
+   └──── Realtime / APIs ────┐
+                             │
+                       Usage & Billing
 ```
 
-### Infrastructure direction
+The goal is a stable Olina API and developer experience while keeping the infrastructure implementation replaceable and evolvable behind the control plane.
 
-- **Application:** React and modern responsive web interfaces
-- **Edge/API:** Cloudflare Workers
-- **AI:** Workers AI initially, with portable external GPU inference as required
-- **Identity and relational data:** Supabase and PostgreSQL
-- **Operational metadata:** Cloudflare D1
-- **Research files and generated reports:** Cloudflare R2
-- **Realtime collaboration:** RealtimeKit and product-level event services
-- **Payments:** Creem with premium USD plans
-- **Deployment principle:** provider-flexible compute across major cloud platforms when workload economics require it
+## API direction
 
-## Trust by design
+Olina is API-first. The control surface is designed for both humans and autonomous software.
 
-Labs should remain in control of their knowledge.
+```http
+POST   /v1/projects
+GET    /v1/projects/:id
+POST   /v1/projects/:id/environments
+GET    /v1/environments/:id
+POST   /v1/environments/:id/clone
+POST   /v1/environments/:id/reset
+DELETE /v1/environments/:id
+```
 
-- private customer data is not used for model training by default
-- training requires explicit permission and appropriate data rights
-- source context and model uncertainty should remain visible
-- access, usage and compute limits are organization-controlled
-- sensitive files are isolated through authenticated storage boundaries
-- research outputs require human verification before consequential use
+The exact API is under active development and may change before general availability.
 
-Olina is research infrastructure, not a substitute for scientific judgment.
+## Domain structure
+
+Olina's product domains are organized around a clear separation between the company site, control plane, documentation, and customer-facing endpoints.
+
+```text
+olina.tech                 Company website
+console.olina.tech         User control panel
+api.olina.tech             Olina control-plane API
+docs.olina.tech            Developer documentation
+status.olina.tech          Service status
+
+<project>.api.olina.tech   Project API endpoint
+<project>.app.olina.tech   Application endpoint
+<project>.files.olina.tech File endpoint
+```
+
+Not every endpoint listed above is necessarily publicly available yet.
 
 ## Business model
 
-Olina is designed as a premium B2B software and compute platform for labs and research-driven organizations.
+Olina is being built as a paid infrastructure platform. The business model combines platform subscriptions with usage-based billing for backend resources and higher-volume platform workloads.
 
-Revenue is expected to combine:
+The product is intentionally not designed around an unlimited permanent free infrastructure tier.
 
-- organization subscriptions in USD
-- metered research and AI compute
-- storage and collaboration capacity
-- custom deployments and integrations
-- dedicated enterprise security and support
+Expected customer segments include individual developers, growing software teams, AI app builders, and platforms that provision large numbers of environments programmatically.
 
-The product is intentionally not positioned as an unlimited free AI service; deep research carries real inference, retrieval and storage costs.
+## What makes Olina different
 
-## Execution roadmap
+Olina is not intended to be another dashboard wrapped around a database.
+
+The product is focused on the orchestration layer between AI-generated software and production backend infrastructure:
+
+- one API for the backend lifecycle
+- infrastructure that AI agents can safely create and destroy
+- disposable and isolated environments
+- provider abstraction behind Olina-owned interfaces
+- usage controls and billing at the Olina layer
+- developer tooling designed for programmatic workflows
+
+This control plane is the product.
+
+## Development principles
+
+### Provider abstraction
+
+Customer applications integrate with Olina interfaces instead of being coupled to a single underlying infrastructure provider.
+
+### Secure by default
+
+Credentials should be scoped, secrets should not be exposed unnecessarily, and destructive operations should be auditable.
+
+### API first
+
+Anything important in the console should ultimately be automatable through the Olina API.
+
+### Simple developer experience
+
+Infrastructure complexity belongs behind the platform, not in the customer's application.
+
+### Usage-aware
+
+Infrastructure has real cost. Resource creation, quotas, metering, and cleanup are first-class parts of the product.
+
+## Roadmap
 
 | Phase | Objective |
 |---|---|
-| **MVP** | Connect products through one API, identity layer and production data model |
-| **Research foundation** | Deliver authenticated projects, files, research jobs, citations and reports |
-| **Lab workspace** | Add collaborative documents, team rooms and institutional research memory |
-| **Intelligence layer** | Introduce evaluation pipelines and proprietary specialist models |
-| **Scale** | Add enterprise governance, dedicated capacity and global lab deployments |
+| **Foundation** | Identity, organizations, projects, API keys, billing model and control-plane data model |
+| **MVP** | Create and delete isolated backend environments through the Olina API |
+| **Developer experience** | Console, CLI, logs, credentials, usage views and documentation |
+| **Agent workflows** | TTL environments, automatic cleanup, scoped agent access and lifecycle automation |
+| **Platform integrations** | SDKs, webhooks, CI/CD and AI-builder integrations |
+| **Scale** | Advanced isolation, policy controls, observability and enterprise capabilities |
 
-Current repositories represent an actively developing platform. Features and interfaces will evolve as product validation continues.
+## Current status
 
-## What we measure
-
-Our product and model development will be evaluated against research outcomes—not chatbot fluency alone:
-
-- citation correctness
-- claim-to-source traceability
-- evidence coverage
-- contradiction detection
-- researcher time saved
-- report reproducibility
-- inference cost per completed research task
-- team adoption and retained research workflows
-
-## Collaboration and investment
-
-Olina's company, product development and investment relationships are led under **Sirmint Technologies**.
-
-We want to work with research labs, scientific teams, design partners, infrastructure partners and investors who believe AI for science must be verifiable, controllable and built around real research workflows.
-
-For partnerships, pilots and investment conversations: **hello@olina.tech**
+Olina is in active development. Public repositories, APIs, product names, limits, and architecture may evolve as the platform is validated with real developer and AI-agent workflows.
 
 ## Security
 
-Please do not disclose suspected vulnerabilities through a public GitHub issue. Send the affected service, reproduction steps, impact and sanitized evidence to **security@olina.tech**.
+Please do not disclose suspected vulnerabilities through a public GitHub issue.
+
+Send security reports with reproduction steps, impact, and sanitized evidence to **security@olina.tech**.
+
+## Company
+
+Olina is a product of **Sirmint Technologies**.
+
+For partnerships, platform integrations, and business inquiries: **hello@olina.tech**
 
 ## Connect
 
 - [olina.tech](https://olina.tech)
 - [X — @olinatech](https://x.com/olinatech)
 - [LinkedIn — Olina Tech](https://www.linkedin.com/company/olina-tech)
-- [Reddit — u/olinatech](https://www.reddit.com/user/olinatech/)
 - [GitHub — Olina-tech](https://github.com/Olina-tech)
 
 ---
 
 <div align="center">
 
-### Research deeply. Verify clearly. Build knowledge that lasts.
+### Backend infrastructure for the software AI builds.
 
-© 2026 Sirmint Technologies · Olina is a Sirmint Technologies product
+© 2026 Sirmint Technologies · Olina
 
 </div>
